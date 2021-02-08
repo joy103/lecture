@@ -38,8 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'bookmark.apps.BookmarkConfig',
-    'blog.apps.BlogConfig',
+    'bookmark.apps.BookmarkConfig', #이건 북마크
+    'blog.apps.BlogConfig', #이건 블로그
 ]
 
 MIDDLEWARE = [
