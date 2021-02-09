@@ -1,8 +1,8 @@
-<!DOCTYPE hotml>
-<html>
-<head>
-<title>Django Bookmark Detial</title>
-</head>
+{% extends "base.html" %}
+
+{% block title %}bookmark_detail.html{% endblock %}
+
+{% block content %}
 <body>
     <div id="content">
         <h1>{{ object.title }}</h1>
@@ -11,4 +11,4 @@
         </ul>
     </div>
 </body>
-</html>
+{% endblock %}

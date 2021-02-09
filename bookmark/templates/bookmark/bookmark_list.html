@@ -4,11 +4,11 @@
 (vDjBook)$ cd templates/bookmark/
 (vDjBook)$ vi bookmark_list.html  -->
 
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Django Bookmark List</title>
-    </head>
+{% extends "base.html" %}
+
+{% block title %}bookmark_list.html{% endblock %}
+
+{% block content %}
 
 
     <body>
@@ -22,4 +22,4 @@
         </div>
 
     </body>
-</html>
+{% endblock %}
